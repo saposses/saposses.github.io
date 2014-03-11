@@ -112,15 +112,15 @@ footer {
 footer a {
     color: #aaaaaa;
     margin-right: 20px;
-    text-decoration: none;  
+    text-decoration: none; 
 }
 
 footer img { 
-    padding: 5px 0 15px 0px;
+    padding: 5px 0 30px 0px;
 }
 
 footer img + img {
-    padding-left: 22px;
+    padding-left: 0px;
 }
 
     
