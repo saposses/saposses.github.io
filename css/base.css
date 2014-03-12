@@ -1,3 +1,4 @@
+/*General*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +26,7 @@ p {
     border-radius: 100px;    
 }
 
+/*Header*/
 header h1 {
     text-align:center;
     font-family: helvetica, arial, sans-serif; 
@@ -63,7 +65,7 @@ header a:hover {
     color: #000000;   
 }
 
-
+/*Homepage*/
 article {
     width: 80%;
     padding: 70px 0 0 0;
@@ -80,27 +82,119 @@ article h1 {
 }
 
 #right {
-    display: inline;
+    display: block;
     font-size: 18px; 
     line-height: 24px;
     float: right;
-    width: 60%;
+    width: 55%;
     margin-top: 6px;
 }
 
 #left {
     display: block;
-    width: 20%; 
+    width: 40%; 
     float: left;
     padding: 10px 0px 20px 55px;
 }
 
-article h2 {
-    font-size: 24px;
-    line-height: 28px;
+/*Resume*/
+section {
+    width: 90%;
+    padding: 70px 0 0 0;
+}
+
+section h1 {
+    font-size: 36px; 
+    line-height: 35px;
+    width: 80%;
+    margin-top: 4px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+
+#justin {
+    display: block;
+    width: 43%; 
+    float: left;
+    padding: 10px 0px 20px 55px;
+}
+
+section h3 {
+    font-size: 25px;
+    font-weight: 250;
+    line-height: 36px;
     margin-bottom: 4px;
 }
 
+section h4 {
+    font-size: 20px;
+    font-weight: 225;
+    line-height: 24px;    
+}
+
+section h5 {
+    font-size: 20px;
+    font-weight: 225;
+    line-height: 24px; 
+    margin-bottom: 2px;
+}
+
+#experience {
+    display: block;
+    font-size: 18px; 
+    line-height: 24px;
+    float: right;
+    width: 53%;
+    margin-top: 6px;
+}
+
+#download {
+    clear: both;
+    text-align:center;
+    padding: 10px 0 0 0;
+}
+
+#download p {
+    font-weight: 400;
+}
+
+/*Contact*/
+
+#complicated {
+    font-size: 36px; 
+    line-height: 35px;
+    text-align:right;
+    width: 80%;
+    margin-top: 4px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+
+#how {
+    display: block;
+    float: left;
+    font-size: 18px; 
+    line-height: 24px;
+    text-align:right;
+    width: 55%;
+    padding: 0 55px 20% 0px; 
+    margin-top: 4px;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    margin-left: 70px;    
+}
+
+#contact {
+    display: block;
+    width: 50%; 
+    float: right;
+    padding: 0 20% 10px 0px;  
+    margin-bottom:10px;
+}
+
+/*Footer*/
 footer {
     clear: both;
     font-size: 12px;
