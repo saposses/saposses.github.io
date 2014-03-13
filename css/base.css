@@ -162,65 +162,91 @@ section h5 {
 }
 
 /*Clips*/
-
-div h3 {
-    text-align:center;
-    padding-bottom:10px;    
+#what {
+    font-size: 36px; 
+    line-height: 35px;
+    margin-bottom: 1%;
+    margin-left: 23%;
+    
 }
 
-div p {
-    text-align:center;
+#follow {
+    font-size: 20px;
+    margin-bottom: 3%;
+    margin-left: 23%;
+    font-weight:300;
+    
 }
+
+article a {
+    color: #000000;
+    margin-right: 20px;
+    text-decoration: none;  
+}
+
+article a:hover {
+    color: #aaaaaa;   
+}
+
+#usalogo {
+    margin-top: 0.5%;
+    margin-left: 25%;
+    float:left;
+}
+
 
 #usa {
-    height: 200px;
+    height: 150px;
     width: 450px;
     padding: 15px;
-    border: 1px solid;
-    border-color: #cccccc;
-    margin-bottom: 2%;
-    margin-left: 16%;
-    float: left;
-}    
+    margin-right: 10%;
+    float: right;
+} 
+
+#sandiegologo {
+    margin-top: 3%;
+    margin-left: 27%;
+    float:left;
+}
 
 #sandiego {
-    height: 200px;
+    height: 150px;
     width: 450px;
     padding: 15px;
-    border: 1px solid;
-    border-color: #cccccc;
-    margin-right: 7%;
-    margin-bottom: 2%;
+    margin-top: 0.5%;
+    margin-right: 10%;
     float: right;
 }    
 
+#gainesvillelogo {
+    margin-top: 3%;
+    margin-left: 24%;
+    float:left;
+}
 
 #gainesville {
-   height: 200px;
-    width: 450px;
+    height: 174px;
     padding: 15px;
-    border: 1px solid;
-    border-color: #cccccc;
-    margin-bottom: 1%;
-    margin-left: 16%;
-    float: left;
+    margin-top: 2%;
+    margin-right: 3.5%;
+    float: right;
 }  
 
+#gatorlogo {
+    margin-top: 6%;
+    margin-left: 24%;
+    float:left;
+}
 
 #gator {
     height: 200px;
-    width: 450px;
+    margin-right: 5%;
     padding: 15px;
-    border: 1px solid;
-    border-color: #cccccc;
-    margin-right: 7%;
-    margin-bottom: 1%;
     float: right;
 }  
 
 
 /*Contact*/
-
 #complicated {
     font-size: 36px; 
     line-height: 35px;
@@ -229,7 +255,7 @@ div p {
     margin-top: 4px;
     margin-right: 10%;
     margin-bottom: 15px;
-    margin-left: 28%;
+    margin-left: 23%;
 }
 
 ul {
@@ -238,7 +264,7 @@ ul {
     float:left;
     font-size: 18px;
     line-height: 40px;
-    margin-left:8%;
+    margin-left:3%;
     padding: 10px 0 0 20%;
 }
 
@@ -268,8 +294,8 @@ li a:hover {
     display: block;
     width: 55%; 
     float: right;
-    margin-top: 1%;
-    margin-right: -7%;
+    margin-top: 0.75%;
+    margin-right: -4%;
     margin-bottom: 2%;
     margin-left: 2%;
 }
