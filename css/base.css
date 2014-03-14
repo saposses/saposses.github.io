@@ -1,14 +1,9 @@
 /*General*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
 }
 
 p {
@@ -27,31 +22,37 @@ p {
 }
 
 /*Header*/
+
 header h1 {
     text-align:center;
-    font-family: helvetica, arial, sans-serif; 
+    font-family: josefin-sans, helvetica, sans-serif; 
     font-size: 35px;  
-    font-weight: 400;
+    font-weight: 800;
     padding: 10px 10px 10px 10px; /*TRouBLe */
+    /*I decided to choose a font for my header that I didn't use anywhere else in order to make it distinctive.*/
 }
 
 header h2 {
     text-align:center;
-    font-family: helvetica, arial, sans-serif; 
+    font-family: arapey, georgia, serif; 
     font-size: 18px;
-    font-weight:300;
+    font-weight:400;
     padding: 0px;
 }
     
 header nav {
     text-align: center;
-    margin-top: 50px;
-    padding: 4px 50px 4px 65px;
+    font-size: 14px;
+    font-family: cabin, helvetica, sans-serif;
+    font-weight: 400;
+    margin: 40px 0 0 0;
+    padding: 10px 50px 4px 65px;
     border-top: 1px solid #cccccc; 
     border-bottom: 1px solid #cccccc;
+    /*I thought the nav looked best with a simple, readable sans-serif.*/
 }
 
-#active {
+.active {
     color: #000000
 }
 
@@ -66,13 +67,16 @@ header a:hover {
 }
 
 /*Homepage*/
+
 article {
     width: 90%;
     padding: 70px 0 0 0;
 }
 
 article h1 {
-    font-size: 36px; 
+    font-size: 50px; 
+    font-family: arapey, georgia, serif;
+    font-weight: 900;
     line-height: 35px;
     width: 80%;
     margin-top: 4px;
@@ -83,11 +87,14 @@ article h1 {
 
 #right {
     display: block;
-    font-size: 18px; 
+    font-size: 18px;
+    font-family: arapey, georgia, serif;
+    font-weight: 100;
     line-height: 24px;
     float: right;
     width: 50%;
     margin-top: 6px;
+    margin-bottom: 30px;
 }
 
 #left {
@@ -99,19 +106,30 @@ article h1 {
 }
 
 /*Resume*/
+
 section {
     width: 90%;
     padding: 70px 0 0 0;
 }
 
+section a {
+    color: #aaaaaa;
+    text-decoration: none;  
+}
+
+section a:hover {
+    color: #000000;   
+}
+
 section h1 {
-    font-size: 36px; 
+    font-size: 50px;
+    font-family: arapey, georgia, serif; 
     line-height: 35px;
     width: 80%;
     margin-top: 4px;
     margin-right: 10%;
     margin-bottom: 20px;
-    margin-left: 9.75%;
+    margin-left: 9.5%;
 }
 
 #justin {
@@ -122,64 +140,75 @@ section h1 {
     margin-left: 5%
 }
 
+.experience {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    /*I put the body of my resume into one class in order to control its placement on the page.*/
+}
+
 section h3 {
-    font-size: 25px;
-    font-weight: 250;
+    width: 150%;
+    font-family: arapey, georgia, serif;
+    font-size: 26px;
+    font-weight: 600;
     line-height: 36px;
     margin-bottom: 4px;
 }
 
 section h4 {
-    font-size: 20px;
-    font-weight: 225;
-    line-height: 24px;    
+    font-family: arapey, georgia, serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
 }
 
 section h5 {
-    font-size: 20px;
-    font-weight: 225;
+    font-family: arapey, georgia, serif;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 24px; 
     margin-bottom: 2px;
 }
 
-#experience {
-    display: block;
-    font-size: 18px; 
-    line-height: 24px;
-    float: right;
-    width: 50%;
-    margin-top: 6px;
+p {
+    font-family: arapey, georgia, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
 }
 
 #download {
     clear: both;
     text-align:center;
-    padding: 10px 0 0 0;
+    padding: 10px 0 30px 0;
 }
 
 #download p {
+    font-size: 18px;
     font-weight: 400;
 }
 
 /*Clips*/
 #what {
-    font-size: 36px; 
-    line-height: 35px;
-    margin-bottom: 1%;
-    margin-left: 23%;
-    
+    font-size: 50px;
+    font-family: arapey, georgia, serif; 
+    line-height: 35px; 
+    margin: 0 0 1% 23%;
 }
 
 #follow {
     font-size: 20px;
-    margin-bottom: 3%;
-    margin-left: 23%;
-    font-weight:300;
-    
+    font-family: arapey, georgia, serif; 
+    font-size: 24px;
+    margin: 1.5% 0 3% 24%;   
 }
 
 article a {
     color: #000000;
+    font-weight: 400;
+    font-size: 16px;
     margin-right: 20px;
     text-decoration: none;  
 }
@@ -187,15 +216,16 @@ article a {
 article a:hover {
     color: #aaaaaa;   
 }
+/*I decided to have my story links do the reverse coloring of my nav bar.*/
 
+/*I put each element (photo and text sections) into individual divs in order to float them to the right places.*/
 #usalogo {
     margin-top: 0.5%;
     margin-left: 25%;
     float:left;
 }
 
-
-#usa {
+#usa { 
     height: 150px;
     width: 450px;
     padding: 15px;
@@ -213,7 +243,6 @@ article a:hover {
     height: 150px;
     width: 450px;
     padding: 15px;
-    margin-top: 0.5%;
     margin-right: 10%;
     float: right;
 }    
@@ -227,8 +256,8 @@ article a:hover {
 #gainesville {
     height: 174px;
     padding: 15px;
-    margin-top: 2%;
-    margin-right: 3.5%;
+    margin-top: 1%;
+    margin-right: 8.5%;
     float: right;
 }  
 
@@ -239,22 +268,25 @@ article a:hover {
 }
 
 #gator {
-    height: 200px;
-    margin-right: 5%;
+    height: 125px;
+    margin-right: 9%;
     padding: 15px;
     float: right;
 }  
 
+/*I think eventually I'd like to find a way to differentiate these sections with borders or something, but I have to rethink my HTML.*/
+
+/*Also, when I reduce the size of my page, the links move under my logos awkwardly. I need to figure out a troubleshoot.*/
 
 /*Contact*/
 #complicated {
-    font-size: 36px; 
+    font-size: 50px; 
     line-height: 35px;
     text-align:left;
     width: 80%;
     margin-top: 4px;
     margin-right: 10%;
-    margin-bottom: 15px;
+    margin-bottom: 1%;
     margin-left: 23%;
 }
 
@@ -262,11 +294,14 @@ ul {
     list-style:none;
     width: 47%;
     float:left;
-    font-size: 18px;
-    line-height: 40px;
+    font-family: arapey, georgia, serif; 
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 35px;
     margin-left:3%;
     padding: 10px 0 0 20%;
 }
+/*I used an unordered list to essentially make a vertical nav.*/
 
 li {
     border-top: 1px solid;
@@ -278,12 +313,10 @@ li a {
     text-decoration: none;  
 }
 
-
 li a:hover {
     color: #aaaaaa;   
 }
  
-
 #last {
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -301,10 +334,12 @@ li a:hover {
 }
 
 /*Footer*/
+
 footer {
     clear: both;
     font-size: 12px;
-    padding: 30px 10px 25px 10px;
+    font-family: cabin, helvetica, sans-serif;
+    padding: 30px 10px 25px 20px;
     text-align: center;
     border-top: 1px solid #cccccc; 
 }
@@ -320,18 +355,16 @@ footer a {
 }
 
 footer img { 
-    padding: 5px 0 30px 0px;
+    padding: 10px 0 30px 0px;
 }
 
 footer img + img {
     padding-left: 0px;
 }
-
-    
-    
+   
 @media screen and (max-width: 500px) 
     {
     header nav {
         font-size: 14px;
         padding: 0px;
-    }
+    }}
