@@ -362,9 +362,82 @@ footer img + img {
     padding-left: 0px;
 }
    
-@media screen and (max-width: 500px) 
-    {
+@media screen and (max-width: 600px) {
+
     header nav {
         font-size: 14px;
         padding: 0px;
-    }}
+    }
+    
+    article h1 {
+        margin-left: 25%;
+        
+    }
+    
+    #left {
+        width: 90%;  
+    }
+    
+    #right {
+        width: 77%;    
+    }
+    
+    section h1 {
+        margin-left: 13%;
+        width: 100%;
+        
+    }
+    
+    #justin {
+        width: 90%;   
+    }
+    
+    .experience {
+        width: 50%; 
+        margin-right: 20%;
+    }
+    
+    #download {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    #usa {
+        width: 68%;
+        height: 100%;
+        clear: both;     
+    }
+    
+    #sandiego {
+        width: 67%;
+        clear: both;
+        
+    }
+    
+    #gainesville {
+        width: 67%;
+        height: 1%;
+
+    }
+    
+    #gator {
+        width: 67%;
+        height: 100%;
+    }
+    
+    #complicated {
+        width: 100%;
+        margin-left: 10%;
+        
+    }
+    
+   li {
+        width: 235%;
+        clear: both;
+    }
+    
+    #contact {
+        clear: both;
+        width: 5%;
+        margin-right: 95%;
+    }
