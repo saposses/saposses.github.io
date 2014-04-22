@@ -21,6 +21,10 @@ p {
     border-radius: 100px;    
 }
 
+a {
+    color: #735195;   
+}
+
 /*Header*/
 
 header h1 {
@@ -179,6 +183,15 @@ p {
     line-height: 24px; 
 }
 
+p a {
+    color: #735195;
+   
+}
+
+p a:hover {
+    color: #aaaaaa;
+}
+
 #download {
     clear: both;
     text-align:center;
@@ -206,7 +219,7 @@ p {
 }
 
 article a {
-    color: #000000;
+    color: #735195;
     font-weight: 400;
     font-size: 16px;
     margin-right: 20px;
