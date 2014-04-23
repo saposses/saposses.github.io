@@ -293,20 +293,28 @@ article a:hover {
 
 /*Multimedia*/
 
+.push
+{margin-left:18%;}
+
+
 .multi {
     height: 240px;
     width: 320px;
     float: left;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-bottom: 10px;
     
 }
+
+.multi:nth-child(3) {
+    margin-left:35px;
+    }
 
 .caption {
     height: 240px;
     width: 320px;
     float: left;
-    margin-left: 100px;
+    margin-left: 35px;
     margin-bottom: 10px;
     overflow: scroll;
     
@@ -314,7 +322,7 @@ article a:hover {
 
 .video {
     float: left;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 /*Contact*/
