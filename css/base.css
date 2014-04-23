@@ -291,6 +291,32 @@ article a:hover {
 
 /*Also, when I reduce the size of my page, the links move under my logos awkwardly. I need to figure out a troubleshoot.*/
 
+/*Multimedia*/
+
+.multi {
+    height: 240px;
+    width: 320px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.caption {
+    height: 240px;
+    width: 320px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    
+}
+
+.video {
+    float: left;
+    margin-left: 100px;
+}
+
 /*Contact*/
 #complicated {
     font-size: 50px; 
