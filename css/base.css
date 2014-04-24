@@ -124,6 +124,8 @@ section a:hover {
     color: #000000;   
 }
 
+/**I followed Professor Carlson's advice and changed my link color to make it a little more noticeable. I figured underlines would also help. **/
+
 section h1 {
     font-size: 50px;
     font-family: arapey, georgia, serif; 
@@ -227,7 +229,6 @@ article a {
 article a:hover {
     color: #aaaaaa;   
 }
-/*I decided to have my story links do the reverse coloring of my nav bar.*/
 
 /*I put each element (photo and text sections) into individual divs in order to float them to the right places.*/
 #usalogo {
@@ -285,10 +286,6 @@ article a:hover {
     float: right;
 }  
 
-/*I think eventually I'd like to find a way to differentiate these sections with borders or something, but I have to rethink my HTML.*/
-
-/*Also, when I reduce the size of my page, the links move under my logos awkwardly. I need to figure out a troubleshoot.*/
-
 /*Multimedia*/
 
 .push
@@ -321,6 +318,7 @@ article a:hover {
 .video {
     float: left;
     margin-left: 300px;
+    padding: 0 0 50px 0;
 }
 
 /*Contact*/
@@ -357,6 +355,8 @@ li a {
     color: #735195;
     text-decoration: none;  
 }
+
+/** I thought in this section, changing the color of the links was enough. Adding underlines would have looked odd with the design.**/
 
 li a:hover {
     color: #aaaaaa;   
